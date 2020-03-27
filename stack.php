@@ -11,7 +11,7 @@
 **/
 
 $stack = array();
-echo empty($stack) ? "Stack is empty": "Stack is NOT empty";
+echo empty($stack) ? "Stack is empty": "Stack is NOT empty"; //ternary operator
 echo "<pre>"."Stack Initialize->\n";print_r($stack);
 
 $valfirst = 'one';
